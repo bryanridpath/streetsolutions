@@ -130,3 +130,50 @@ footer {
     }
 
 }
+
+
+@media screen and (max-width: 375px) {
+    
+    html, body {
+        height: 100%;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header {
+        height: 15vh;
+    }
+    
+    h1 {
+        margin: 0px;
+        font-size: 50px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 15px;
+    }
+
+    .about {
+        height: 15vh;
+        width: 80%;
+    }
+    .about-section {
+        height: 15vh;
+    }
+    hr {
+        width: 50%;
+    }
+
+    footer {
+        height: 20px;
+        flex-shrink: 0;
+    }
+
+    .contact, .link {
+        font-size: 15px;
+    }
+
+}
