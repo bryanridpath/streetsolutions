@@ -86,7 +86,16 @@ footer {
 }
 
 @media screen and (max-width: 1024px) {
-
+    
+    html, body {
+        height: 100%;
+    }
+    
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    
     header {
         height: 15vh;
     }
@@ -113,6 +122,7 @@ footer {
 
     footer {
         height: 5px;
+        flex-shrink: 0;
     }
 
     .contact, .link {
