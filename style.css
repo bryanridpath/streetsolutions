@@ -87,3 +87,25 @@ main {
 footer {
     height: 10vh;
 }
+
+/* Optimizations for mobile */
+
+@media screen and (max-width: 1024px) {
+
+    /* Header */
+    header {
+        width: 90%;
+    }
+
+    /* Removed empty div to stretch out title */
+    .empty {
+        display: none;
+    }
+
+    /* Centered the text on info page */
+    .info-block {
+        width: 90%;
+        margin-top: 5vh;
+    }
+
+}
